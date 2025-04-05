@@ -100,7 +100,7 @@ export const Hero = () => {
             Shubham Inavolu
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            Welcome! My name is Shubham and I'm an avid programmer. I am
+            Welcome! My name is Shubham and I am an avid programmer. I am
             currently looking for internship opportunities to learn and excel my
             career as a Software Engineer. Please scroll down to see my work and
             explore my portfolio!
@@ -122,7 +122,7 @@ export const Hero = () => {
               onClick={() => console.log("click")}
               className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl font-semibold cursor-pointer"
             >
-              Let's Connect <span>👋</span>
+              Let&#39;s Connect <span>👋</span>
             </button>
           </Link>
         </div>
