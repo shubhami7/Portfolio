@@ -45,13 +45,18 @@ const skillsList = [
   },
   {
     title: "Testing & DevOps",
-    skills: [{ skill: "JUnit" }, { skill: "AWS Lambda" }, { skill: "PM2" }],
+    skills: [
+      { skill: "JUnit" },
+      { skill: "Jest" },
+      { skill: "AWS Lambda" },
+      { skill: "PM2" },
+    ],
   },
 ];
 
 function Skills() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center pt-48">
       <div className="container">
         <SectionHeader
           title="Skills"

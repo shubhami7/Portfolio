@@ -30,6 +30,7 @@ const hobbies = [
   { title: "🃏 Poker", left: "70%", top: "45%" },
   { title: "🛩️ Traveling", left: "5%", top: "65%" },
   { title: "🎵 Music", left: "45%", top: "70%" },
+  { title: "🏎️ Cars", left: "65%", top: "30%" },
 ];
 
 function About() {

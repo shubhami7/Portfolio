@@ -9,15 +9,17 @@ const experiences = [
     company: "Hack UMass",
     time: "November 2024 - November 2024",
     technologies: [
-      { tech: "Java" },
-      { tech: "Spring Boot" },
-      { tech: "MongoDV" },
+      { tech: "Next.js" },
+      { tech: "Node.js" },
+      { tech: "Express.js" },
+      { tech: "MongoDB" },
+      { tech: "Socket.IO" },
       { tech: "Redis" },
       { tech: "AWS Lambda" },
-      { tech: "JUnit" },
+      { tech: "Jest" },
     ],
     description:
-      "Smart Scheduler is an intelligent scheduling tool designed to simplify time management. Built during Hack UMass, it helps users effortlessly organize their tasks, meetings, and deadlines by automatically generating optimized schedules based on priorities and availability. Our team focused on creating a seamless experience, ensuring users could easily manage their time without the hassle of manual planning. Whether balancing work, school, or personal commitments, Smart Scheduler adapts to individual needs, making productivity feel effortless.",
+      "The Project Management Dashboard was developed as part of the Hack UMass Hackathon. It is a real-time platform that enables team members to collaborate efficiently by tracking task progress and updates. Users can view live updates, manage tasks, and track project activity seamlessly. The app was built to streamline communication and project management, allowing teams to stay organized and on track with their goals.",
     results: [
       {
         title:
@@ -29,7 +31,7 @@ const experiences = [
       },
       {
         title:
-          "Maintained 95%+ test coverage with JUnit, ensuring reliability and preventing regressions.",
+          "Maintained 95%+ test coverage with Jest, ensuring reliability and preventing regressions.",
       },
     ],
   },

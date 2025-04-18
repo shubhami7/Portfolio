@@ -10,8 +10,7 @@ import Link from "next/link";
 export const Hero = () => {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen py-32 md:py-48 lg:py-60">
-      <div className="absolute flex flex-col items-center justify-center pointer-events-none">
-        {/* [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] */}
+      <div className="absolute flex flex-col items-center justify-center pointer-events-none mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent">
         <div
           className="absolute inset-0 -z-30 opacity-5"
           style={{
